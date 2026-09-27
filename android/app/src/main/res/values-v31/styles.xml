@@ -1,0 +1,23 @@
+<resources>
+    <!-- Theme for Android 12+ (API 31+) - Disable splash screen -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <!-- Remove splash screen completely for Android 12+ -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBackground">@android:color/transparent</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@null</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
+
+
+
+
+
+
+
+
